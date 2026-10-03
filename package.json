@@ -1,0 +1,63 @@
+{
+  "name": "net.padat.classpay",
+  "displayName": "ClassPay",
+  "version": "1.0.0",
+  "description": "ClassPay (Amanah Fee Tracking) - one Cordova app for Super Admin, Admin, Student and Sponsor roles.",
+  "main": "www/js/app.js",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build.js",
+    "android:run": "cordova run android --emulator",
+    "android:build": "cordova build android",
+    "android:prepare": "cordova prepare android",
+    "icons": "python scripts/build-icons.py"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Padat",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova": "^12.0.0",
+    "cordova-android": "^15.1.0",
+    "cordova-plugin-camera": "^8.0.0",
+    "cordova-plugin-clipboard": "^1.0.0",
+    "cordova-plugin-dialogs": "^2.0.2",
+    "cordova-plugin-file": "^8.1.3",
+    "cordova-plugin-inappbrowser": "^7.0.0",
+    "cordova-plugin-network-information": "^3.1.0",
+    "cordova-plugin-secure-storage": "^3.0.2",
+    "cordova-plugin-splashscreen": "^6.0.1",
+    "cordova-plugin-statusbar": "^4.0.0",
+    "cordova-plugin-x-socialsharing": "^6.0.4",
+    "cordova-plugin-x-toast": "^2.7.3",
+    "es6-promise-plugin": "^4.2.2"
+  },
+  "cordova": {
+    "platforms": [],
+    "plugins": {
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-file": {
+        "ANDROIDX_WEBKIT_VERSION": "1.4.0"
+      },
+      "cordova-plugin-camera": {
+        "ANDROIDX_WEBKIT_VERSION": "1.4.0",
+        "ANDROIDX_CORE_VERSION": "1.6.+"
+      },
+      "cordova-plugin-clipboard": {
+        "ANDROIDX_WEBKIT_VERSION": "1.4.0",
+        "ANDROIDX_CORE_VERSION": "1.6.+"
+      },
+      "cordova-plugin-dialogs": {
+        "ANDROIDX_WEBKIT_VERSION": "1.4.0",
+        "ANDROIDX_CORE_VERSION": "1.6.+"
+      },
+      "cordova-plugin-x-toast": {},
+      "cordova-plugin-secure-storage": {},
+      "cordova-plugin-x-socialsharing": {}
+    }
+  }
+}

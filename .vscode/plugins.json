@@ -1,0 +1,1 @@
+{"plugins":["cordova-plugin-statusbar","cordova-plugin-splashscreen","cordova-plugin-network-information","cordova-plugin-inappbrowser","cordova-plugin-file","cordova-plugin-camera","cordova-plugin-clipboard","cordova-plugin-dialogs","cordova-plugin-x-toast","cordova-plugin-secure-storage","cordova-plugin-x-socialsharing","es6-promise-plugin"]}
